@@ -2,10 +2,6 @@ function mostrarAlerta() {
   const mensagem = document.getElementById("mensagem");
   mensagem.textContent = "Você clicou no botão! 🎉";
 }
-function mostrarAlerta() {
-  const mensagem = document.getElementById("mensagem");
-  mensagem.textContent = "Você clicou no botão! 🎉";
-}
 
 function mostrarData() {
   const info = document.getElementById("info");
@@ -14,7 +10,8 @@ function mostrarData() {
 }
 
 function mudarCor() {
-  document.body.style.backgroundColor = "#BFEFFF"; // azul bebê
+  const container = document.querySelector(".container");
+  container.style.backgroundColor = "#BFEFFF";
 }
 
 function mostrarMensagem() {

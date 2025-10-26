@@ -4,19 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Site de Testes</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bem-vindo ao meu site de testes!</h1>
-  <p id="mensagem">Clique no botão abaixo para interagir:</p>
-  <button onclick="mostrarAlerta()">Clique aqui</button>
-  <h2>Interações extras</h2>
-<button onclick="mostrarData()">Mostrar data atual</button>
-<button onclick="mudarCor()">Mudar cor do fundo</button>
-<button onclick="mostrarMensagem()">Mostrar mensagem secreta</button>
+  <div class="container">
+    <h1>Bem-vindo ao meu site de testes!</h1>
+    <p id="mensagem">Clique no botão abaixo para interagir:</p>
+    <button onclick="mostrarAlerta()">Clique aqui</button>
 
-<p id="info"></p>
+    <h2>Interações extras</h2>
+    <div class="botoes">
+      <button onclick="mostrarData()">Mostrar data atual</button>
+      <button onclick="mudarCor()">Mudar cor do fundo</button>
+      <button onclick="mostrarMensagem()">Mostrar mensagem secreta</button>
+    </div>
 
+    <p id="info"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
