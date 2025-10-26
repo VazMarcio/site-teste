@@ -1,0 +1,10 @@
+@import url('./styles/colors.css');
+
+
+:root {
+  --azul-clarinho: #e0f7fa;
+  --azul-celeste: #87CEEB;
+  --azul-bebe: #BFEFFF;
+  --azul-gelo: #E6F0FF;
+  --azul-lavanda: #E6F0FF;
+}

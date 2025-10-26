@@ -7,3 +7,5 @@
 3. Adicionar arquivos;
 4. Fazer commit;
 5. Enviar com push
+   
+Fazendo Alterações no projeto
