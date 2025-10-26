@@ -4,24 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Site de Testes</title>
+
+  <!-- Importa o arquivo de estilos CSS -->
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    <!-- Container centralizado com o conteúdo principal -->
   <div class="container">
+
     <h1>Bem-vindo ao meu site de testes!</h1>
+    <!-- Parágrafo que será atualizado ao clicar no botão -->
     <p id="mensagem">Clique no botão abaixo para interagir:</p>
+    
+      <!-- Botão que chama a função mostrarAlerta() -->
     <button onclick="mostrarAlerta()">Clique aqui</button>
 
     <h2>Interações extras</h2>
+
+    <!-- Botões adicionais com diferentes interações -->
     <div class="botoes">
       <button onclick="mostrarData()">Mostrar data atual</button>
       <button onclick="mudarCor()">Mudar cor do fundo</button>
       <button onclick="mostrarMensagem()">Mostrar mensagem secreta</button>
     </div>
 
+<!-- Botões adicionais com diferentes interações -->
     <p id="info"></p>
   </div>
 
+ <!-- Importa o arquivo JavaScript com as funções -->
   <script src="script.js"></script>
 </body>
 </html>
