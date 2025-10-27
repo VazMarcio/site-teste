@@ -2,7 +2,7 @@
 // Altera o texto do parágrafo com id "mensagem" quando o botão principal é clicado
 function mostrarAlerta() {
   const mensagem = document.getElementById("mensagem");
-  mensagem.textContent = "Você clicou no botão! 🎉";
+  mensagem.textContent = mensagem.textContent = "Você abriu a primeira porta. O que vem depois depende de você. 🔑";
 }
 
 // Mostra a data atual no parágrafo com id "info"
@@ -21,5 +21,6 @@ function mudarCor() {
 // Exibe uma mensagem secreta no parágrafo com id "info"
 function mostrarMensagem() {
   const info = document.getElementById("info");
-  info.textContent = "Você desbloqueou uma mensagem secreta! ✨";
-}
+  info.textContent = "O segredo do sucesso é nunca parar de aprender! 🚀";
+};
+
